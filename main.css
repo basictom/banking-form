@@ -9,8 +9,8 @@ body {
 	color: #777;
 }
 form {
-	width: 100%;
 	margin: 0 auto;
+	text-align:center;
 }
 input {
 	padding: 5px 10px;
@@ -21,13 +21,23 @@ input {
 		text-transform: uppercase;
 		color: black;
 	}
+h1 {
+	font-size: 2.1em;
+	text-align:center;
+	color: #777;
+	margin: 10px 0px;
+}
 .container {
-	width: 100%;
 	margin: 0 auto;
 	padding: 50px 150px;
+	background-color: lightgrey;
 }
 #message {
-	width: 100%;
+	width: 485px;
+    margin: 10px;
+    border-radius: 5px;
+    height: 75px;
+    padding: 5px;
 }
 .submit {
 	margin: 10px;
@@ -42,6 +52,6 @@ input {
 		.submit button:hover {
 			color: #fbfbfb;
 			background-color: #777;
-			border: none;
+			border: 1px solid #777;
 			cursor: pointer;
 		}
